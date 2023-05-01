@@ -6,7 +6,30 @@
 엘리먼트의 생김새
 리액트 엘리면트는 자바스크립트 객체 형태로 존재
 ex: 부변성
+```
+{
+  type : 'button',
+  props:{
+    className: 'bg-green',
+    children:{
+      type: 'b',
+      props:{
+        children: 'Hello, element!'
+         }
+      }   
+   }
+}  
+```
 
+```
+{
+  type: Button,
+  props: {
+    color: 'green',
+    children: 'Hello, element!'
+    }
+}    
+```
 특징 
 1 불변성
 엘리먼트 생성후에 
