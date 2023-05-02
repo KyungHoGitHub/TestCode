@@ -49,6 +49,8 @@ React.createElement(
 Childeren이나 attributes를 바꿀수 없다
 
 # 엘리먼트 렌더링하기
+<img width="968" alt="스크린샷 2023-05-01 오후 11 26 50" src="https://user-images.githubusercontent.com/119731100/235675116-d6f7076b-ea92-45d8-b7d8-d123a26ccc12.png">
+
 
 
 # 렌더링된 엘리먼트 업데이트하기
