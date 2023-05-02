@@ -48,14 +48,22 @@ JSX를 사용하면 복잡한 UI를 선언적으로 작성할 수 있으며, 코
 JSX 사용
 <div> Hello, {name}</div>
 
-JSX 사용 안함
+JSX 사용 안함 파라미터사용
 React.createElemet('div',null,`Hello, ${name}`);
 ```
 
-## 3-2.injection Attack 해킹을방어한다
+### 3-2.injection Attack 해킹을방어한다
+```
+const title = response.potentiallyMaliciousInput;
+
+const element = <h1>{title}</h1>;
+```
+괄호를 사용하여 변수를 임베딩 하고 기본적으로 ReactDOM은 렌더링 하기전 임베딩된 값을<br> 
+모두 문자열로 변환하기때문에 명시적으로 선언 되지않은 값이 괄호 안에 들어갈수없습니다 
+
 # 4. JSX 사용법 
 ### 4-1 모든 자바스크립트 문법을 지원한다
-### 4-2 자바스크립트 사용시 중괄로 묶어서 사용 하면 된다
+### 4-2 자바스크립트 코드 사용시 중괄로 { } 묶어서 사용 하면 된다
 ```
 const name = {
     firstName: "유",
@@ -76,21 +84,4 @@ return (
   </>
 )
 ```
-➕
-1.표기법
-JSX에서는 변수 또는 함수를 선언할 때 그리고 HTML의 style 속성을 기술할 때 카멜(camel) 표기법을 사용합니다. 
 
-조건부 렌더링
-JSX 내부에서는 삼항 연산자(ternary opeator)를 사용해야 합니다. if 문이나 for 문은 값으로 평가되는 표현식이 아니기 때문에 JSX 내부에서 사용할 수 없습니다.
-```
-const authenticated = true
-return (
-  <> 
-  { authenticated ? 
-      <h1>Hello, world!</h1> : 
-      <h1>Hello, stranger!</h1>
-  } 
-  </>
-  
-  ```
-)
