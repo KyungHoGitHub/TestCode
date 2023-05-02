@@ -50,6 +50,7 @@ Childeren이나 attributes를 바꿀수 없다
 
 # 엘리먼트 렌더링하기
 <img width="968" alt="스크린샷 2023-05-01 오후 11 26 50" src="https://user-images.githubusercontent.com/119731100/235675116-d6f7076b-ea92-45d8-b7d8-d123a26ccc12.png">
+<img width="968" alt="스크린샷" src="https://user-images.githubusercontent.com/119731100/235676309-815971b1-6066-44fd-b485-4fb3f29d9c4a.jpg">
 
 
 
