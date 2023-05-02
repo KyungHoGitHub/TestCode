@@ -1,16 +1,17 @@
 [본 문서는 한빛미디어의 소플의 처음 만난 리액트 (저자 이인제)를 참고하여 정리된 문서입니다.]
 # 1. JSX란
-JSX(JavaScript XML)는 JavaScript와 XML을 결합한 것으로, React에서 UI를 구성하는 데 사용됩니다. 
+자바스크립트의 확장 문법 이라는 뜻으로 해석할 수있으며<br>
+JSX(JavaScript XML)는 X는 JavaScript와 XML을 결합한 것으로,<br> React에서 UI를 구성하는 데 사용됩니다. 
 JSX를 사용하면 HTML과 유사한 문법으로 UI를 작성할 수 있기 때문에 코드가 간결해지고 가독성이 향상됩니다.
 ```
-const element = <h1>Hello, world!</h1>;
+const element = <h1>Hello, world!</h1>; // HTML<h1> 사용
 ```
 
 # 2. JSX의 역할
-JSX 코드는 `createElement() 함수`를 통해 자바스크립트 코드로 변환됩니다. 
+JSX 코드는 `createElement() 함수`를 통해 내부적으로 XML/HTML 코드를 자바스크립트 코드로 변환됩니다. 
 JSX 코드를 자바스크립트로 변환하는 이유는 브라우저에서 실행되는 자바스크립트 코드로 변환하여 효율적으로 렌더링하기 위함입니다.
 ```
-// JSX문법
+// JSX문법으로 작성한 두 객체(엘리먼트)
 const element = (
   <h1 className="greeting">
       Hello, world!
@@ -23,8 +24,9 @@ const element = React.createElement(
       'Hello, world!;
       )
 ```
+
 ```
-// createElement() 함수 호출의 결과
+// createElement() 함수 호출의 결과 자바스크립트 
 const elemnet = {
     type: 'h1',
     props: {
