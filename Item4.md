@@ -49,6 +49,23 @@ React.createElement(
 Childeren이나 attributes를 바꿀수 없다
 
 # 엘리먼트 렌더링하기
-그림자료를 통해 설명
+
 
 # 렌더링된 엘리먼트 업데이트하기
+
+```
+import React from "react";
+
+function Clock(props) {
+    return (
+        <div>
+            <h1>안녕, 리액트!</h1>
+            <h2>현재 시간: {new Date().toLocaleTimeString()}</h2>
+        </div>
+    );
+}
+
+export default Clock;
+```
+Clock() 함수를 정의 
+새로운 엘리멘트를 생성해서 바꾸는 것
