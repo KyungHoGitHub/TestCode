@@ -1,7 +1,7 @@
 # 엘리먼트의 정의
-엘리먼트는 React 앱의 가장 작은 단위입니다.
-리액트 엘리먼트는 화면에서 보이는것을 기술하며 화면에서 보이는 DOM엘리먼트가 만들어집니다 
-브라우저 DOM 엘리먼트와 달리 React 엘리먼트는 일반 객체이며(plain object) 쉽게 생성할 수 있습니다. 
+엘리먼트는 React 앱의 가장 작은 단위입니다.<br>
+리액트 엘리먼트는 화면에서 보이는것을 기술하며 화면에서 보이는 DOM엘리먼트가 만들어집니다<br>
+브라우저 DOM 엘리먼트와 달리 React 엘리먼트는 일반 객체이며(plain object) 쉽게 생성할 수 있습니다<br>
 React DOM은 React 엘리먼트와 일치하도록 DOM을 업데이트합니다.
 ```
 const element = <h1>Hello, world</h1>; //Item3 엘리먼트 생성
@@ -33,7 +33,7 @@ const element = <h1>Hello, world</h1>; //Item3 엘리먼트 생성
 }    
 ```
 
-### createElement() 세가지 파라미터 
+### createElement() 파라미터 
 
 ```
 React.createElement(
@@ -47,6 +47,7 @@ React.createElement(
 |type | 문자열,리액트 컴포넌트|
 |props|attributes(속성)|
 |chilren|자식 엘리먼트|
+
 ### 엘리먼트의 특징
 불변성
 :엘리먼트 생성후에 Childeren이나 attributes를 바꿀수 없다
@@ -54,7 +55,7 @@ React.createElement(
 # 엘리먼트 렌더링하기
 엘리먼트를 생성한후 실제로 화면에 보여주기 위해서는 렌더링 과정을 거쳐야 합니다.
 
-### [엘리먼트렌더링] 
+### [엘리먼트 렌더링] 
 
 <img width="968" alt="스크린샷 2023-05-01 오후 11 26 50" src="https://user-images.githubusercontent.com/119731100/235675116-d6f7076b-ea92-45d8-b7d8-d123a26ccc12.png">
 
@@ -79,4 +80,4 @@ function Clock(props) {
 
 export default Clock;
 ```
-한번 렌더링된 엘리먼트는 새로운 엘리멘트를 생성해서 바꾸는 것입니다 (앞써 언급된 엘리먼트의 불변성특징으로 인해)
+한번 렌더링된 엘리먼트는 새로운 엘리멘트를 생성해서 바꾸는 것입니다 (앞써 언급된 엘리먼트의 불변성 특징)
