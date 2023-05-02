@@ -30,11 +30,25 @@ ex: 부변성
     }
 }    
 ```
+```
+React.createElement(
+  type,
+  [props],
+  [...childeren]
+)  
+```
+파라미터|HTML|리액트엘리먼트|
+|------|:---:|:---:|
+|첫번째 타입| 문자열 | 리액트 컴포넌트|
+|두번째 props|attributes| attributes|
+|세번째 chilren|하위 태그|자식 엘리먼트|
+
 특징 
 1 불변성
 엘리먼트 생성후에 
 Childeren이나 attributes를 바꿀수 없다
 
 # 엘리먼트 렌더링하기
+그림자료를 통해 설명
 
 # 렌더링된 엘리먼트 업데이트하기
