@@ -50,11 +50,15 @@ React.createElement(
 ### 엘리먼트의 특징
 불변성
 :엘리먼트 생성후에 Childeren이나 attributes를 바꿀수 없다
-<img width="968" alt="스크린샷 2023-05-01 오후 11 26 50" src="https://user-images.githubusercontent.com/119731100/235675116-d6f7076b-ea92-45d8-b7d8-d123a26ccc12.png">
 
 # 엘리먼트 렌더링하기
-엘리먼트를 생성한후 실제로 화면에 보여주기 위해서는 렌더린 과정을 거쳐야 합니다.
+엘리먼트를 생성한후 실제로 화면에 보여주기 위해서는 렌더링 과정을 거쳐야 합니다.
 
+### [엘리먼트렌더링] 
+
+<img width="968" alt="스크린샷 2023-05-01 오후 11 26 50" src="https://user-images.githubusercontent.com/119731100/235675116-d6f7076b-ea92-45d8-b7d8-d123a26ccc12.png">
+
+### [엘리먼트렌더링 업데이트]
 <img width="968" alt="스크린샷" src="https://user-images.githubusercontent.com/119731100/235676309-815971b1-6066-44fd-b485-4fb3f29d9c4a.jpg">
 
 
