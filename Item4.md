@@ -52,7 +52,7 @@ React.createElement(
 
 ### 엘리먼트의 특징
 불변성
-:엘리먼트 생성후에 Childeren이나 attributes를 바꿀수 없다
+:엘리먼트 생성후에 Children이나 attributes를 바꿀수 없다
 
 # 2. 엘리먼트 렌더링하기
 엘리먼트를 생성한후 실제로 화면에 보여주기 위해서는 렌더링 과정을 거쳐야 합니다.
