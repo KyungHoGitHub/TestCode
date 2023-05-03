@@ -31,7 +31,7 @@ const elemnet = {
     type: 'h1',
     props: {
         className:'greeting',
-        chlidren: 'Hello, world!'
+        children: 'Hello, world!'
    }
 }   
 ```
@@ -68,7 +68,7 @@ const name = {
 const element = <h1>성은 {name.firstName}이고,
 이름은 {name.lastName} 입니다</h1>;
 ```
-### 4-3 chilederen을 정의 하려면 상위태그 하위태그를 감싸도록 하면 된다
+### 4-3 children을 정의 하려면 상위태그 하위태그를 감싸도록 하면 된다
 JSX에서 HTML 태그를 반환할 때는 반드시 HTML 태그를 묶어주는 단 하나의 부모 태그가 있어야 합니다. 
 이 부모 태그는 특정한 HTML 태그를 사용하지 않아도 되며, Fragment라는 빈 태그 모양을 사용할 수 있습니다.
 ```
