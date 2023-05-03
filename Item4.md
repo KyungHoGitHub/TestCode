@@ -48,7 +48,7 @@ React.createElement(
 |------|:---:|
 |type | 문자열,리액트 컴포넌트|
 |props|attributes(속성)|
-|chilren|자식 엘리먼트|
+|children|자식 엘리먼트|
 
 ### 엘리먼트의 특징
 불변성
