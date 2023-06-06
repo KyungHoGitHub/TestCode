@@ -41,7 +41,9 @@ const App() => (
 
 ### 2.특수화
 때로는 어떤 컴포넌트의 “특수한 경우”인 컴포넌트를 고려해야 하는 경우가 있습니다. 예를 들어,
-WelcomeDialog는 Dialog의 특수한 경우라고 할 수 있습니다.  
+WelcomeDialog는 Dialog의 특수한 경우라고 할 수 있습니다. 
+![구체화자료 003](https://github.com/KyungHoGitHub/TestCode/assets/119731100/ed23ca3c-0ce3-43f8-9745-638e24ce78e1)
+
 
 ```
 function Dialog(props) {
