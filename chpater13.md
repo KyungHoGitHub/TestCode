@@ -16,6 +16,8 @@
 
 ### 1.합성(Composition)
 합성이란 컴포넌트에서 다른 컴포넌트를 담기라고 생각해 볼 수있습니다
+![합성 3 001](https://github.com/KyungHoGitHub/TestCode/assets/119731100/98a45d4c-543e-4190-8b56-576938f509b4)
+### Containment 
 ![무제 3 002](https://github.com/KyungHoGitHub/TestCode/assets/119731100/ddbea7e4-0617-4d38-82e4-86556a3f9048)
 
 컴포넌트에 어떤 자식 엘리먼트가 들어올 지 미리 예상할 수 없는 경우로 박스 역할을 하는 Siderbar, Dialog와 같은 컴포넌트가 있습니다</br>
@@ -78,7 +80,7 @@ function WelcomeDialog() {
 Facebook에서는 수천 개의 React 컴포넌트를 사용하지만, 컴포넌트를 상속 계층 구조로 작성을 권장할만한 사례를 아직 찾지 못했습니다.[리액트 공식문서 내용]</br>
 Component 자체로 재사용 가능하기때문에 상속을 따로 권하지 않습니다.</br>
 위 처럼 재사용이 필요한 Component 를 분리하고 위에 Dialog 컴포넌트와같이, 이를 import해서 사용하는 것이 편리하다고 합니다.</br>
-만약 UI 가 아닌 기능을 재사용하고 싶다면, 별도의 javascript 모듈로 분리하여 import 한 후 사용하는 것이 좋다고 한다.</br>
+만약 UI 가 아닌 기능을 재사용하고 싶다면, 별도의 javascript 모듈로 분리하여 import 한 후 사용하는 것이 좋.</br>
 
 ### 📋 4.정리
 합성을 통해 컴포넌트가 담는 경우 어떤한 엘리먼트가 사용되는지 파악해야 하며 위에서 언급된 케이스에 경우 props.children을 사용을 권장드리며</br>
