@@ -1,5 +1,6 @@
 <center>
-<img src ="https://github.com/KyungHoGitHub/TestCode/assets/119731100/32eb172c-7d07-440a-bc3a-0adc7cd2f3b2" width="170" height="200"/>
+<img src=./resources/soaple.jpg
+width="170" height="200">
 </center>
 
 본 문서는 ``소플의 처음 만난 리액트 (저자 이인제) - 한빛미디어`` 출판물을 이용하여 저작물에 대한 온라인 매체 이용 규정을 준수하여 허용 범위내에서 사용되었습니다.
