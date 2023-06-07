@@ -15,9 +15,10 @@
 #### 4.정리
 
 ### 1.합성(Composition)
-합성이란 컴포넌트에서 다른 컴포넌트를 담기라고 생각해 볼 수있습니다
+React는 강력한 합성 모델을 가지고 있으며, 상속 대신 합성을 사용하여 컴포넌트 간에 코드를 재사용하는 것이 좋습니다.
 ![합성 3 001](https://github.com/KyungHoGitHub/TestCode/assets/119731100/98a45d4c-543e-4190-8b56-576938f509b4)
 ### Containment 
+컴포넌트에서 다른 컴포넌트를 담기라고 생각해 볼 수있습니다.
 ![무제 3 002](https://github.com/KyungHoGitHub/TestCode/assets/119731100/ddbea7e4-0617-4d38-82e4-86556a3f9048)
 
 컴포넌트에 어떤 자식 엘리먼트가 들어올 지 미리 예상할 수 없는 경우로 박스 역할을 하는 Siderbar, Dialog와 같은 컴포넌트가 있습니다</br>
